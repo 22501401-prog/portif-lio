@@ -1,6 +1,3 @@
-/* ===================================
-   1. VARIÁVEIS E TEMAS
-   =================================== */
 :root {
   --bg-color: #0b0b0b;
   --bg-card: #141414;
@@ -37,7 +34,6 @@
   transition: background-color 0.3s, color 0.3s;
 }
 
-/* Garante que o scroll horizontal não apareça mesmo com as faixas maiores que a tela */
 html, body {
   width: 100%;
   overflow-x: hidden;
@@ -54,9 +50,6 @@ html, body {
   z-index: 2;
 }
 
-/* ===================================
-   2. FAIXAS GROSSAS QUE VÃO DE PONTA A PONTA
-   =================================== */
 .hazard-stripe-wrapper {
   width: 100vw; /* Ocupa 100% da largura da janela */
   position: relative;
@@ -83,7 +76,6 @@ html, body {
   box-shadow: 0 4px 10px rgba(0,0,0,0.5);
 }
 
-/* Inclinações Específicas */
 .hazard-top {
   margin-top: 10px;
   margin-bottom: 20px;
@@ -116,7 +108,6 @@ html, body {
   transform: rotate(2.5deg);
 }
 
-/* Botão Flutuante de Tema */
 .theme-toggle-btn {
   position: fixed;
   top: 15px;
@@ -134,12 +125,6 @@ html, body {
   align-items: center;
   gap: 8px;
 }
-
-/* ===================================
-   3. SEÇÕES DO PORTFÓLIO
-   =================================== */
-
-/* Hero */
 .hero {
   padding: 30px 0 10px 0;
 }
@@ -199,7 +184,6 @@ html, body {
   transform: translateY(-2px);
 }
 
-/* Sobre Mim e Habilidades Rápida */
 .about-skills-grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -323,7 +307,6 @@ html, body {
   line-height: 1.5;
 }
 
-/* Projetos */
 .projects-grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -358,7 +341,6 @@ html, body {
   line-height: 1.4;
 }
 
-/* Contato */
 .contact-section {
   margin: 30px 0;
 }
@@ -398,7 +380,6 @@ textarea.input-field {
   min-height: 140px;
 }
 
-/* Rodapé */
 footer {
   padding: 40px 0 20px 0;
   display: flex;
@@ -429,9 +410,6 @@ footer {
   transform: scale(1.15);
 }
 
-/* ===================================
-   4. MODAL
-   =================================== */
 .modal-overlay {
   position: fixed;
   top: 0;
@@ -487,9 +465,6 @@ footer {
   font-size: 0.95rem;
 }
 
-/* ===================================
-   5. MEDIA QUERIES (DESKTOP / PC)
-   =================================== */
 @media (min-width: 768px) {
   .about-skills-grid {
     grid-template-columns: 1fr 1fr;

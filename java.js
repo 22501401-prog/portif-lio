@@ -1,6 +1,3 @@
-/* ----------------------------------------------------
-   1. MÁSCARA DE TELEFONE (CELULAR)
-   ---------------------------------------------------- */
 const phoneInput = document.getElementById('phoneInput');
 
 phoneInput.addEventListener('input', (e) => {
@@ -21,9 +18,6 @@ phoneInput.addEventListener('input', (e) => {
   e.target.value = value;
 });
 
-/* ----------------------------------------------------
-   2. SISTEMA DE MODAL DURAÇÃO/DETALHES
-   ---------------------------------------------------- */
 const modalOverlay = document.getElementById('modalOverlay');
 const modalTitle = document.getElementById('modalTitle');
 const modalDescription = document.getElementById('modalDescription');
@@ -51,9 +45,6 @@ modalOverlay.addEventListener('click', (e) => {
   }
 });
 
-/* ----------------------------------------------------
-   3. MODO CLARO / ESCURO (TOGGLE TEMA)
-   ---------------------------------------------------- */
 const themeToggleBtn = document.getElementById('themeToggleBtn');
 let isDark = true;
 
@@ -68,9 +59,6 @@ themeToggleBtn.addEventListener('click', () => {
   }
 });
 
-/* ----------------------------------------------------
-   4. SCROLL SUAVE E ANIMAÇÃO DE BARRAS DE HABILIDADES
-   ---------------------------------------------------- */
 const btnAllSkills = document.getElementById('btnAllSkills');
 const skillsSection = document.getElementById('skillsSection');
 const progressFills = document.querySelectorAll('.progress-fill');
@@ -95,9 +83,6 @@ window.addEventListener('scroll', () => {
   }
 });
 
-/* ----------------------------------------------------
-   5. SIMULAÇÃO DE ENVIO DO FORMULÁRIO DE CONTATO
-   ---------------------------------------------------- */
 document.getElementById('contactForm').addEventListener('submit', (e) => {
   e.preventDefault();
   alert('Mensagem enviada com sucesso!');

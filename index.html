@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>João Vitor Abelha - Portfólio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Botão de Alternância de Tema -->
+  <button class="theme-toggle-btn" id="themeToggleBtn">
+    <i class="fa-solid fa-moon"></i> Modo Escuro
+  </button>
+
+  <!-- FAIXA TOPO (100% LARGURA) -->
+  <div class="hazard-stripe-wrapper hazard-top">
+    <div class="hazard-stripe"></div>
+  </div>
+
+  <div class="container">
+    <!-- SEÇÃO HERO -->
+    <section class="hero">
+      <h1>João Vitor</h1>
+      <h2>Abelha</h2>
+      <div class="hero-buttons">
+        <a href="#projetos" class="btn btn-yellow">&lt;/&gt; ver projetos</a>
+        <a href="#contato" class="btn btn-outline">entre em contato</a>
+      </div>
+    </section>
+  </div>
+
+  <!-- FAIXA MEIO (100% LARGURA) -->
+  <div class="hazard-stripe-wrapper hazard-mid">
+    <div class="hazard-stripe"></div>
+  </div>
+
+  <div class="container">
+    <!-- SOBRE MIM & HABILIDADES RÁPIDAS -->
+    <section class="about-skills-grid">
+      <div class="about-column">
+        <h2 class="section-title">sobre mim</h2>
+        <p class="about-text">
+          Sou estudante com 16 anos e desenvolvedor com foco em lógica de programação e desenvolvimento de software. Tenho experiência com C# e Portugol, utilizando essas tecnologias para criar soluções eficientes, desenvolver algoritmos e aprimorar minha capacidade de resolução de problemas. Gosto de entender como os sistemas funcionam por trás das interfaces, buscando sempre escrever códigos organizados, claros e de fácil manutenção. Atualmente, continuo estudando programação e expandindo meus conhecimentos para me tornar um desenvolvedor cada vez mais completo.
+        </p>
+      </div>
+
+      <div class="quick-skills-column">
+        <h2 class="section-title">algumas das minhas habiliades</h2>
+        <ul class="quick-skills-list">
+          <li><i class="fa-solid fa-triangle-exclamation"></i> inglês intermediário</li>
+          <li><i class="fa-solid fa-triangle-exclamation"></i> conhecimento básico de C#</li>
+          <li><i class="fa-solid fa-triangle-exclamation"></i> conhecimento intermediário de ferrmantas google</li>
+          <li><i class="fa-solid fa-triangle-exclamation"></i> conhecimento básico MySQL</li>
+        </ul>
+        <button class="btn btn-yellow btn-full-width" id="btnAllSkills">ver todas habilidades</button>
+      </div>
+    </section>
+  </div>
+
+  <!-- FAIXA ANTES DAS HABILIDADES (100% LARGURA) -->
+  <div class="hazard-stripe-wrapper hazard-low">
+    <div class="hazard-stripe"></div>
+  </div>
+
+  <div class="container">
+    <!-- SEÇÃO COMPLETA DE HABILIDADES -->
+    <section class="skills-section" id="skillsSection">
+      <div class="section-header-left">
+        <h2>Minhas</h2>
+        <h2 class="section-title" style="font-size: 2.8rem;">habilidades</h2>
+      </div>
+
+      <h3 class="skills-subtitle">HARD SKILLS</h3>
+      
+      <div class="hard-skill-bar">
+        <label>C#</label>
+        <div class="progress-bg"><div class="progress-fill" data-progress="70%"></div></div>
+      </div>
+      <div class="hard-skill-bar">
+        <label>MySQL</label>
+        <div class="progress-bg"><div class="progress-fill" data-progress="50%"></div></div>
+      </div>
+      <div class="hard-skill-bar">
+        <label>Google ferramentas</label>
+        <div class="progress-bg"><div class="progress-fill" data-progress="80%"></div></div>
+      </div>
+      <div class="hard-skill-bar">
+        <label>Inglês</label>
+        <div class="progress-bg"><div class="progress-fill" data-progress="85%"></div></div>
+      </div>
+      <div class="hard-skill-bar">
+        <label>HTML/CSS</label>
+        <div class="progress-bg"><div class="progress-fill" data-progress="60%"></div></div>
+      </div>
+
+      <h3 class="skills-subtitle">SOFT SKILLS</h3>
+
+      <div class="soft-skills-grid">
+        <div class="soft-skill-card">
+          <div class="soft-skill-header">
+            <i class="fa-solid fa-puzzle-piece"></i>
+            <h4>RESOLUÇÃO DE PROBLEMAS</h4>
+          </div>
+          <p>Tenho facilidade para analisar situações, identificar desafios e desenvolver soluções de forma lógica e eficiente. Busco compreender a causa dos problemas antes de agir, criando alternativas que tragam resultados práticos e contribuam para a melhoria contínua dos processos.</p>
+        </div>
+
+        <div class="soft-skill-card">
+          <div class="soft-skill-header">
+            <i class="fa-solid fa-clipboard-list"></i>
+            <h4>ORGANIZAÇÃO</h4>
+          </div>
+          <p>Valorizo a organização em todas as etapas do trabalho. Manter tarefas, objetivos e processos bem estruturados me ajuda a ser mais produtivo, eficiente e focado nos resultados.</p>
+        </div>
+
+        <div class="soft-skill-card">
+          <div class="soft-skill-header">
+            <i class="fa-solid fa-brain"></i>
+            <h4>PENSAMENTO LÓGICO</h4>
+          </div>
+          <p>Analiso problemas de forma estruturada e racional, buscando identificar padrões e encontrar soluções eficientes. O pensamento lógico é a base da minha forma de aprender, programar e enfrentar desafios.</p>
+        </div>
+
+        <div class="soft-skill-card">
+          <div class="soft-skill-header">
+            <i class="fa-solid fa-book-open-reader"></i>
+            <h4>APRENDIZADO RÁPIDO</h4>
+          </div>
+          <p>Aprendo novas tecnologias e conceitos com facilidade, adaptando-me rapidamente a diferentes desafios. Estou sempre em busca de conhecimento para evoluir minhas habilidades e ampliar minha capacidade de criar soluções.</p>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <div class="container">
+    <!-- SEÇÃO PROJETOS -->
+    <section id="projetos" style="margin-top: 20px;">
+      <h2 class="section-title" style="font-size: 2.2rem; letter-spacing: 2px;">PROJETOS</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="tag">C#</div>
+          <h3>PROJETO</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+          <button class="btn btn-yellow open-modal-btn" data-title="Projeto C# 1" data-desc="Detalhes completos sobre o Projeto 1 desenvolvido em C#. Este projeto inclui aplicação prática de orientação a objetos, algoritmos de otimização e manipulação avançada de dados."><i class="fa-solid fa-list-check"></i> detalhes</button>
+        </div>
+
+        <div class="project-card">
+          <div class="tag">C#</div>
+          <h3>PROJETO</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+          <button class="btn btn-yellow open-modal-btn" data-title="Projeto C# 2" data-desc="Detalhes do Projeto 2. Sistema integrado com banco de dados MySQL para gestão de dados e consultas dinâmicas."><i class="fa-solid fa-list-check"></i> detalhes</button>
+        </div>
+
+        <div class="project-card">
+          <div class="tag">C#</div>
+          <h3>PROJETO</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+          <button class="btn btn-yellow open-modal-btn" data-title="Projeto C# 3" data-desc="Detalhes do Projeto 3. Focado em lógica de programação, tratamento de exceções e arquitetura limpa em C#."><i class="fa-solid fa-list-check"></i> detalhes</button>
+        </div>
+
+        <div class="project-card">
+          <div class="tag">C#</div>
+          <h3>PROJETO</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+          <button class="btn btn-yellow open-modal-btn" data-title="Projeto C# 4" data-desc="Detalhes do Projeto 4. Aplicação desenvolvida para simulação de processos e automação de tarefas cotidianas."><i class="fa-solid fa-list-check"></i> detalhes</button>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- FAIXAS DUPLAS CONTATO (100% LARGURA) -->
+  <div class="hazard-stripe-wrapper hazard-bottom-1">
+    <div class="hazard-stripe"></div>
+  </div>
+  <div class="hazard-stripe-wrapper hazard-bottom-2">
+    <div class="hazard-stripe"></div>
+  </div>
+
+  <div class="container">
+    <!-- SEÇÃO CONTATO -->
+    <section class="contact-section" id="contato">
+      <h2 class="section-title" style="text-align: center; font-size: 2.5rem; margin-bottom: 25px; letter-spacing: 2px;">CONTATO</h2>
+      
+      <form class="contact-form" id="contactForm">
+        <div class="form-group-row">
+          <input type="text" class="input-field" placeholder="Nome:" required>
+          <input type="email" class="input-field" placeholder="Email:" required>
+        </div>
+        
+        <input type="tel" class="input-field" id="phoneInput" placeholder="Celular: (00) 00000-0000" maxlength="15" required>
+        
+        <textarea class="input-field" placeholder="Digite sua mensagem..." required></textarea>
+        
+        <button type="submit" class="btn btn-yellow" style="align-self: center; min-width: 200px;">Enviar</button>
+      </form>
+    </section>
+
+    <!-- RODAPÉ -->
+    <footer>
+      <div class="footer-email">joaovitorabelha17@gmail.com</div>
+      <div class="social-links">
+        <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+      </div>
+    </footer>
+  </div>
+
+  <!-- MODAL DE DETALHES -->
+  <div class="modal-overlay" id="modalOverlay">
+    <div class="modal-content">
+      <button class="close-modal-btn" id="closeModalBtn">&times;</button>
+      <h3 id="modalTitle">Título do Projeto</h3>
+      <p id="modalDescription">Descrição detalhada do projeto aparecerá aqui.</p>
+    </div>
+  </div>
+
+  <script src="java.js" defer></script>
+</body>
+</html>
